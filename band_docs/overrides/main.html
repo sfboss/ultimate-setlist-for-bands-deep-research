@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Permanent+Marker|Rock+Salt">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/band-styles.css' | url }}">
+  <script src="{{ 'assets/javascripts/band-theming.js' | url }}"></script>
+{% endblock %}
+
+{% block content %}
+  {% if page.meta and page.meta.band %}
+    <div class="band-header {{ page.meta.band }}">
+      <div class="band-logo">
+        <img src="{{ 'assets/images/' + page.meta.band + '-logo.png' | url }}" alt="{{ page.meta.band }} logo" onerror="this.style.display='none'">
+      </div>
+    </div>
+  {% endif %}
+  {{ super() }}
+{% endblock %}

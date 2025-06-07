@@ -1,0 +1,16 @@
+# emotional resonance
+
+A collection of Pearl Jam songs.
+
+## Songs in this Collection
+
+- Release
+- Black
+- Indifference
+- Come Back
+- Light Years
+- Present Tense
+- Immortality
+- Just Breathe
+- Inside Job
+- I Am Mine

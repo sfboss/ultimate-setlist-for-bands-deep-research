@@ -1,0 +1,142 @@
+/* Base enhancements */
+:root {
+  --md-primary-fg-color: #4a148c;
+  --md-primary-fg-color--light: #7c43bd;
+  --md-primary-fg-color--dark: #12005e;
+  --md-accent-fg-color: #ffa000;
+}
+
+body {
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+/* Make headers more distinctive */
+.md-content h1 {
+  font-family: "Permanent Marker", cursive;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+  border-bottom: 3px solid var(--md-accent-fg-color);
+  padding-bottom: 0.3em;
+}
+
+.md-content h2 {
+  border-left: 5px solid var(--md-accent-fg-color);
+  padding-left: 0.5em;
+  font-family: "Rock Salt", cursive;
+  font-size: 1.5em;
+}
+
+/* Band specific styling */
+.grateful-dead {
+  --md-primary-fg-color: #6d0101;
+  --md-primary-fg-color--light: #9c4040;
+  --md-primary-fg-color--dark: #3e0101;
+  --md-accent-fg-color: #ffd700;
+}
+
+.grateful-dead .md-header {
+  background: linear-gradient(135deg, #6d0101 0%, #9c4040 100%);
+}
+
+.grateful-dead .md-content h1 {
+  color: #6d0101;
+  font-family: "Rock Salt", cursive;
+}
+
+.grateful-dead .md-nav__item--active {
+  color: #ffd700;
+}
+
+.phish {
+  --md-primary-fg-color: #0277bd;
+  --md-primary-fg-color--light: #58a5f0;
+  --md-primary-fg-color--dark: #004c8c;
+  --md-accent-fg-color: #76ff03;
+}
+
+.phish .md-header {
+  background: linear-gradient(135deg, #0277bd 0%, #58a5f0 100%);
+}
+
+.dmb {
+  --md-primary-fg-color: #455a64;
+  --md-primary-fg-color--light: #718792;
+  --md-primary-fg-color--dark: #1c313a;
+  --md-accent-fg-color: #ff9800;
+}
+
+.dmb .md-header {
+  background: linear-gradient(135deg, #455a64 0%, #718792 100%);
+}
+
+.pearl-jam {
+  --md-primary-fg-color: #1a237e;
+  --md-primary-fg-color--light: #534bae;
+  --md-primary-fg-color--dark: #000051;
+  --md-accent-fg-color: #ff3d00;
+}
+
+.pearl-jam .md-header {
+  background: linear-gradient(135deg, #1a237e 0%, #534bae 100%);
+}
+
+.stones {
+  --md-primary-fg-color: #b71c1c;
+  --md-primary-fg-color--light: #f05545;
+  --md-primary-fg-color--dark: #7f0000;
+  --md-accent-fg-color: #212121;
+}
+
+.stones .md-header {
+  background: linear-gradient(135deg, #b71c1c 0%, #f05545 100%);
+}
+
+/* Album-like card styling */
+.md-typeset .album-card {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+}
+
+.md-typeset .album-card:hover {
+  transform: scale(1.02);
+}
+
+/* Song listings styling */
+.song-listing {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.song-listing li {
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  background-color: rgba(var(--md-primary-fg-color--rgb), 0.1);
+  transition: transform 0.2s ease;
+}
+
+.song-listing li:hover {
+  transform: translateX(5px);
+  background-color: rgba(var(--md-primary-fg-color--rgb), 0.2);
+}
+
+/* Band header area */
+.band-header {
+  padding: 30px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.band-logo {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.band-logo img {
+  max-width: 100%;
+  height: auto;
+}

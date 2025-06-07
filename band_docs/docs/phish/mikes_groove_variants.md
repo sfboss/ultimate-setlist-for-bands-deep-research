@@ -1,0 +1,15 @@
+# mikes groove variants
+
+A collection of Phish songs.
+
+## Songs in this Collection
+
+- Mike's Song > I Am Hydrogen > Weekapaug Groove
+- Mike's Song > Simple > Weekapaug Groove
+- Mike's Song > Hydrogen > Simple > Weekapaug Groove
+- Mike's Song > Hydrogen > Esther > Weekapaug Groove
+- Mike's Song > Sparks > Weekapaug Groove
+- Mike's Song > My Friend, My Friend > Weekapaug Groove
+- Mike's Song > Fast Enough For You > Weekapaug Groove
+- Mike's Song > The Horse > Silent in the Morning > Weekapaug Groove
+- Mike's Song > McGrupp and the Watchful Hosemasters > Weekapaug Groove

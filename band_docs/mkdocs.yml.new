@@ -1,0 +1,124 @@
+site_name: Band Collections
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - toc.integrate
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: amber
+  font:
+    text: Roboto Slab
+    code: Roboto Mono
+  icon:
+    logo: material/music
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - meta
+nav:
+  - Home: index.md
+  - Band_docs:
+    - band_docs/index.md
+  - Grateful Dead:
+    - dead/index.md
+    - Brent Mydland Era 1979 1990: dead/brent_mydland_era_1979_1990.md
+    - China Cat Rider Songs: dead/china_cat_rider_songs.md
+    - Final Era 1990 1995: dead/final_era_1990_1995.md
+    - Help Slip Frank Songs: dead/help_slip_frank_songs.md
+    - Jazzy Exploratory Peak 1972 1974: dead/jazzy_exploratory_peak_1972_1974.md
+    - Notable Lower Frequency Fan Favorites: dead/notable_lower_frequency_fan_favorites.md
+    - Post Hiatus Two Drummers 1976 1979: dead/post_hiatus_two_drummers_1976_1979.md
+    - Primal Dead 1965 1969: dead/primal_dead_1965_1969.md
+    - Primal Dead 1968 1970 First Set: dead/primal_dead_1968_1970_first_set.md
+    - Primal Dead 1968 1970 Second Set: dead/primal_dead_1968_1970_second_set.md
+    - Scarlet Fire Songs: dead/scarlet_fire_songs.md
+    - Top 20: dead/top_20.md
+    - Ultimate Setlist Encore: dead/ultimate_setlist_encore.md
+    - Ultimate Setlist First Set: dead/ultimate_setlist_first_set.md
+    - Ultimate Setlist Second Set: dead/ultimate_setlist_second_set.md
+    - Workingman American Beauty 1970 1972: dead/workingman_american_beauty_1970_1972.md
+    - Full Collection Data: dead/grateful-dead-song-collections.md
+  - Dave Matthews Band:
+    - dmb/index.md
+    - Before These Crowded Streets: dmb/before_these_crowded_streets.md
+    - Busted Stuff Beyond: dmb/busted_stuff_beyond.md
+    - Crash: dmb/crash.md
+    - Early Uttad: dmb/early_uttad.md
+    - Era1 Genesis 1991 1994: dmb/era1_genesis_1991_1994.md
+    - Era2 Ascent 1995 1998: dmb/era2_ascent_1995_1998.md
+    - Era3 Peak Experimentation 1999 2007: dmb/era3_peak_experimentation_1999_2007.md
+    - Era4 Transition 2008 2017: dmb/era4_transition_2008_2017.md
+    - Era5 Modern 2018 Present: dmb/era5_modern_2018_present.md
+    - Notable Rare Songs: dmb/notable_rare_songs.md
+    - Segue 1: dmb/segue_1.md
+    - Segue 2: dmb/segue_2.md
+    - Segue 3: dmb/segue_3.md
+    - Segue 4: dmb/segue_4.md
+    - Top 10: dmb/top_10.md
+    - Top 11 20: dmb/top_11_20.md
+    - Full Collection Data: dmb/dmb-song-collections.md
+  - Phish:
+    - phish/index.md
+    - 2 0 2002 2004: phish/2_0_2002_2004.md
+    - 3 0 2009 2019: phish/3_0_2009_2019.md
+    - 4 0 Contemporary 2020 Present: phish/4_0_contemporary_2020_present.md
+    - Archimedes Encore: phish/archimedes_encore.md
+    - Archimedes Set 1: phish/archimedes_set_1.md
+    - Archimedes Set 2: phish/archimedes_set_2.md
+    - Closers: phish/closers.md
+    - Cowfunk Era 1997 2000: phish/cowfunk_era_1997_2000.md
+    - Early Years 1983 1992: phish/early_years_1983_1992.md
+    - High Type II Propensity: phish/high_type_ii_propensity.md
+    - Medium Type II Propensity: phish/medium_type_ii_propensity.md
+    - Mid 90s Ascent 1993 1996: phish/mid_90s_ascent_1993_1996.md
+    - Mikes Groove Variants: phish/mikes_groove_variants.md
+    - Openers: phish/openers.md
+    - Top 50: phish/top_50.md
+    - Ultra Rare: phish/ultra_rare.md
+    - Full Collection Data: phish/phish-song-collections-complete.md
+  - Pearl Jam:
+    - pj/index.md
+    - Backspacer 2009: pj/backspacer_2009.md
+    - Binaural 2000: pj/binaural_2000.md
+    - Dark Matter 2024: pj/dark_matter_2024.md
+    - Emotional Resonance: pj/emotional_resonance.md
+    - Gigaton 2020: pj/gigaton_2020.md
+    - High Sentiment: pj/high_sentiment.md
+    - Lightning Bolt 2013: pj/lightning_bolt_2013.md
+    - No Code 1996: pj/no_code_1996.md
+    - Pearl Jam 2006: pj/pearl_jam_2006.md
+    - Riot Act 2002: pj/riot_act_2002.md
+    - Ten 1991: pj/ten_1991.md
+    - Top 20: pj/top_20.md
+    - Ultra Rare: pj/ultra_rare.md
+    - Vitalogy 1994: pj/vitalogy_1994.md
+    - Vs 1993: pj/vs_1993.md
+    - Yield 1998: pj/yield_1998.md
+    - Full Collection Data: pj/pearl-jam-song-collections (1).md
+  - Setlist_dream_team:
+    - setlist_dream_team/index.md
+  - Rolling Stones:
+    - stones/index.md
+    - Ballad Mid Tempo Section: stones/ballad_mid_tempo_section.md
+    - Classic Rock Era 1968 1972: stones/classic_rock_era_1968_1972.md
+    - Early Blues Era 1962 1967: stones/early_blues_era_1962_1967.md
+    - Encore: stones/encore.md
+    - Fan Favorites: stones/fan_favorites.md
+    - Final Energy Build: stones/final_energy_build.md
+    - Mid Career Evolution 1973 1981: stones/mid_career_evolution_1973_1981.md
+    - Mid Set Rock Block: stones/mid_set_rock_block.md
+    - Modern Era 1982 Present: stones/modern_era_1982_present.md
+    - Notable Rarities: stones/notable_rarities.md
+    - Opening Segment: stones/opening_segment.md
+    - Special Feature: stones/special_feature.md
+    - Top 10: stones/top_10.md
+    - Full Collection Data: stones/rolling-stones-song-collections.md

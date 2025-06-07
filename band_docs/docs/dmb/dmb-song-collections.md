@@ -1,0 +1,193 @@
+# Dave Matthews Band Song Collection Data
+
+Full JSON data for Dave Matthews Band song collections.
+
+```json
+{
+  "most_frequently_performed": {
+    "top_10": [
+      "Ants Marching",
+      "Jimi Thing",
+      "Tripping Billies", 
+      "Warehouse",
+      "Two Step",
+      "Satellite",
+      "Dancing Nancies",
+      "Don't Drink the Water",
+      "Too Much",
+      "All Along the Watchtower"
+    ],
+    "top_11_20": [
+      "What Would You Say",
+      "So Much to Say",
+      "#41",
+      "Grey Street",
+      "Lie in Our Graves",
+      "Crash Into Me",
+      "One Sweet World",
+      "Pantala Naga Pampa",
+      "Crush",
+      "Anyone Seen the Bridge"
+    ]
+  },
+  "by_era": {
+    "era1_genesis_1991_1994": [
+      "Ants Marching", 
+      "Satellite", 
+      "Warehouse", 
+      "Recently", 
+      "Tripping Billies", 
+      "The Song That Jane Likes", 
+      "Seek Up", 
+      "Minarets", 
+      "Typical Situation", 
+      "What Would You Say"
+    ],
+    "era2_ascent_1995_1998": [
+      "Two Step", 
+      "#41", 
+      "Crash Into Me", 
+      "Lie In Our Graves", 
+      "Say Goodbye", 
+      "So Much to Say", 
+      "Don't Drink the Water", 
+      "Crush", 
+      "The Stone", 
+      "Rapunzel", 
+      "Pig", 
+      "The Last Stop"
+    ],
+    "era3_peak_experimentation_1999_2007": [
+      "JTR", 
+      "Bartender", 
+      "Grey Street", 
+      "Big Eyed Fish", 
+      "Grace Is Gone", 
+      "When the World Ends", 
+      "The Space Between", 
+      "You Might Die Trying", 
+      "Everyday", 
+      "What You Are", 
+      "Louisiana Bayou", 
+      "American Baby", 
+      "Hunger for the Great Light"
+    ],
+    "era4_transition_2008_2017": [
+      "Funny the Way It Is", 
+      "Why I Am", 
+      "Shake Me Like a Monkey", 
+      "You & Me", 
+      "Squirm", 
+      "Seven", 
+      "Mercy", 
+      "Gaucho", 
+      "Rooftop", 
+      "Drunken Soldier", 
+      "If Only"
+    ],
+    "era5_modern_2018_present": [
+      "Samurai Cop (Oh Joy Begin)", 
+      "That Girl Is You", 
+      "Come Tomorrow", 
+      "Again and Again", 
+      "Madman's Eyes", 
+      "Walk Around the Moon", 
+      "The Only Thing", 
+      "Monsters", 
+      "Break Free", 
+      "All You Wanted Was Tomorrow"
+    ]
+  },
+  "fan_favorites_by_era": {
+    "early_uttad": [
+      "Ants Marching",
+      "Warehouse", 
+      "Satellite", 
+      "What Would You Say", 
+      "Typical Situation", 
+      "Dancing Nancies"
+    ],
+    "crash": [
+      "Two Step", 
+      "#41", 
+      "Lie In Our Graves", 
+      "Crash Into Me", 
+      "Say Goodbye", 
+      "So Much To Say"
+    ],
+    "before_these_crowded_streets": [
+      "Don't Drink the Water", 
+      "The Stone", 
+      "Crush", 
+      "Rapunzel", 
+      "Pig", 
+      "The Last Stop"
+    ],
+    "busted_stuff_beyond": [
+      "Grey Street", 
+      "Bartender", 
+      "Grace Is Gone", 
+      "You Never Know", 
+      "Everyday", 
+      "Why I Am"
+    ]
+  },
+  "notable_rare_songs": [
+    "Halloween",
+    "#40",
+    "Blue Water",
+    "Sugar Will",
+    "Shotgun",
+    "Let You Down",
+    "Kit Kat Jam",
+    "Loving Wings",
+    "Spoon",
+    "The Last Stop",
+    "Get In Line",
+    "True Reflections"
+  ],
+  "common_segues": [
+    ["So Much To Say", "Anyone Seen The Bridge", "Too Much"],
+    ["Pantala Naga Pampa", "Rapunzel"],
+    ["Jimi Thing", "(often leads to covers)"],
+    ["Big Eyed Fish", "Bartender"]
+  ],
+  "ultimate_setlist": {
+    "main_set": [
+      "Warehouse",
+      "Seek Up",
+      "Don't Drink the Water",
+      "#41",
+      "Satellite",
+      "Crush",
+      "Samurai Cop (Oh Joy Begin)",
+      "Grace Is Gone",
+      "Pantala Naga Pampa →",
+      "Rapunzel",
+      "Grey Street",
+      "Jimi Thing",
+      "Halloween",
+      "Bartender",
+      "So Much to Say →",
+      "Anyone Seen The Bridge",
+      "Too Much",
+      "Two Step"
+    ],
+    "encore": [
+      "The Stone",
+      "Crash Into Me",
+      "Ants Marching",
+      "All Along the Watchtower"
+    ]
+  },
+  "alternative_songs": {
+    "opener": ["Warehouse", "Seek Up", "Old Dirt Hill"],
+    "mid_set_jam": ["Jimi Thing", "Lie In Our Graves", "#41"],
+    "rarity_slot": ["Halloween", "Pig", "You Never Know"],
+    "main_set_closer": ["Two Step", "Stay (Wasting Time)", "Tripping Billies"],
+    "encore_opener": ["The Stone", "Sister", "Typical Situation"],
+    "final_encore": ["All Along the Watchtower", "Tripping Billies", "Why I Am"]
+  }
+}
+
+```

@@ -1,0 +1,25 @@
+# classic rock era 1968 1972
+
+A collection of Rolling Stones songs.
+
+## Songs in this Collection
+
+- Jumpin' Jack Flash
+- Honky Tonk Women
+- Tumbling Dice
+- Brown Sugar
+- Sympathy for the Devil
+- Gimme Shelter
+- Midnight Rambler
+- Street Fighting Man
+- Wild Horses
+- You Can't Always Get What You Want
+- Dead Flowers
+- Rocks Off
+- Sweet Virginia
+- Loving Cup
+- Happy
+- Bitch
+- Can't You Hear Me Knocking
+- Moonlight Mile
+- Sway
